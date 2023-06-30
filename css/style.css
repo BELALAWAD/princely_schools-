@@ -1,0 +1,177 @@
+/* Start Global Style Css*/
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+/* End Global Style Css*/
+/*Start Section nav-sec*/
+section.nav-sec{
+    background:url(../images/welcom-bg.png) no-repeat;
+    background-size: cover !important;
+    height: 100vh;
+    position: relative;
+
+}
+section.nav-sec .navbar{
+    background-color: #0d114b;
+    min-height: 80px;
+    
+    
+    
+}
+
+
+section.nav-sec i{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+
+section.nav-sec .navbar-collapse {
+    
+    margin-top: 16px;
+}
+
+section.nav-sec .content-nav{
+    padding: 70px 0px;
+    text-align: center;
+
+}
+
+
+
+section.nav-sec .content-nav h5{
+    margin-bottom:30%;
+}
+
+
+
+section.nav-sec .content-nav h1{
+    color:#fff;
+}
+
+section.nav-sec .content-nav p{
+    color:#fff;
+    width: 25%;
+    margin-bottom: 40px;
+}
+section.nav-sec .content-nav a{
+    padding: 7px 40px;
+    border-radius: 25px;
+}
+.navbar-nav>li:hover>a{
+    background-color: transparent;
+    
+}
+
+/*End Section nav-sec*/
+/* Start Section works*/
+section.works .boxs{
+    display: flex;
+}
+section.works .boxs .box{
+    flex: 1;
+    background-color: #ccc;
+    text-align: center;
+    padding: 30px ;
+    margin-left: 1.6px;
+}
+
+/* End Section works*/
+
+/*Satrt Section search*/
+section.search {
+    padding: 60px 0px;
+    position: relative;
+}
+section.search .head-search{
+    text-align: center;
+    margin-bottom: 60px;
+}
+section.search .head-search h1{
+    margin-bottom: 30px;
+}
+section.search .box{
+    padding: 30px;
+    text-align: center;
+}
+section.search .box:hover{
+    background-color: chartreuse;
+    
+}
+section.search i {
+    font-size: 60px;
+    margin-bottom: 15px;
+    
+}
+section.search button {
+    position: absolute;
+    left: 240px;
+}
+
+/*End Section search*/
+/*Start Section event*/
+section.event {
+    background-color: #ccc;
+    padding: 40px 0px;
+}
+section.event .head-event{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+section.event .head-event h2{
+    margin-left: 50px;
+}
+.thumbnail .left-cont{
+    margin-bottom: 20px;
+   
+}
+.thumbnail:hover{
+    transform: scale(1.1);
+}
+/*End  Section event*/
+/* Start section secrip*/
+section.secrip{
+    background-color: rgb(79, 79, 223);
+    text-align: center;
+    padding: 30px 0px;
+}
+section.secrip input{
+    width: 40%;
+    height: 35px;
+    border-radius: 7px;
+}
+section.secrip h2{
+    color: white;
+}
+
+/* End section secrip*/
+/*Start section conect*/
+section.conect{
+    padding-top: 60px ;
+    background-color: rgb(66, 21, 109);
+    color: white;
+    position: relative;
+}
+section.conect img{
+    margin-bottom: 30px;
+}
+section.conect h5  {
+    margin-bottom: 30px;
+}
+section.conect .icon-conect{
+    position: absolute;
+    left: 250px;
+   
+}
+/*End section conect*/
